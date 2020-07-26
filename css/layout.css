@@ -100,5 +100,9 @@ button:hover a {
   nav {
     padding: 20px 35px;
   }
+  #search-bar {
+    width: 100%;
+    padding: 10px 0;
+  }
 }
 /*# sourceMappingURL=layout.css.map */
