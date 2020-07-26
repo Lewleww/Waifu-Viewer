@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    max-width: 700px;
+    min-width: 600px;
     padding: 10px;
     padding-top: 0;
 }
@@ -51,7 +51,7 @@ nav {
         position: relative;
         display: inline-block;
         width: inherit;
-        height: 400px;
+        height: 600px;
         border-radius: none;
 
         img {
@@ -82,6 +82,11 @@ button:hover {
 }
 
 @media(max-width: 1000px) {
+    .container {
+        max-width: 700px;
+        padding: 10px;
+        padding-top: 0;
+    }
     nav {
         padding:  15px 0px;
     }
