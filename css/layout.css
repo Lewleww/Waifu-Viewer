@@ -28,6 +28,8 @@ body {
 }
 
 nav {
+  position: -webkit-sticky;
+  position: sticky;
   background: #4A4E69;
   padding: 10px 20px;
   margin-bottom: 15px;
@@ -92,5 +94,11 @@ button:hover {
 
 button:hover a {
   color: #4A4E69;
+}
+
+@media (max-width: 1000px) {
+  nav {
+    padding: 20px 35px;
+  }
 }
 /*# sourceMappingURL=layout.css.map */

@@ -22,6 +22,7 @@ body {
 }
 
 nav {
+    position: sticky;
     background: $primary-color;
     padding:  10px 20px;
     margin-bottom: 15px;
@@ -77,5 +78,11 @@ button:hover {
     cursor: pointer;
     a {
         color: $primary-color;
+    }
+}
+
+@media(max-width: 1000px) {
+    nav {
+        padding:  20px 35px;
     }
 }
