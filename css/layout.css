@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-  min-width: 600px;
+  max-width: 600px;
   padding: 10px;
   padding-top: 0;
 }
@@ -96,7 +96,7 @@ button:hover a {
   color: #4A4E69;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   .container {
     max-width: 700px;
     padding: 10px;
