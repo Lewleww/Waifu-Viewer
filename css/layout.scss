@@ -23,7 +23,6 @@ body {
 }
 
 nav {
-    position: sticky;
     background: $primary-color;
     padding:  10px 20px;
     margin-bottom: 15px;
@@ -85,11 +84,13 @@ button {
         padding-top: 0;
     }
     nav {
+        margin: 5;
         padding:  15px 0px;
     }
     #search-bar {
         width: 100%;
         padding: 10px 0;
+        margin-right: 5px;
     }
     .card {
         width: 100%;
