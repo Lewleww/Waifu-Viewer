@@ -84,9 +84,12 @@ nav #search-bar {
   height: 100%;
 }
 
-button a {
+button {
   color: #4A4E69;
-  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {

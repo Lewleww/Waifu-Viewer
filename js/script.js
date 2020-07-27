@@ -24,21 +24,11 @@ function populateCards({firstname, lastname, thumbnail}) {
             <h1>${firstname}</h1>
 
             <div class='links'>
-                <button>
-                    <a href='${yandereLink}${lastname}_${firstname}' target="_blank">yande.re</a>
-                </button> 
-                <button>
-                    <a href='${konachanLink}${lastname}_${firstname}' target="_blank">konachan</a>
-                </button> 
-                <button>
-                    <a href='${gelbooruLink}${lastname}_${firstname}' target="_blank">gelbooru</a>
-                </button> 
-                <button>
-                    <a href='${pixivLink}${firstname} ${lastname}' target="_blank">pixiv</a>
-                </button>
-                <button>
-                    <a href='${nhentaiLink}${firstname} ${lastname}' target="_blank">nhentai</a>
-                </button>  
+                <a href='${yandereLink}${lastname}_${firstname}' target="_blank"><button>yande.re</button></a>
+                <a href='${konachanLink}${lastname}_${firstname}' target="_blank"><button>konachan</button></a>
+                <a href='${gelbooruLink}${lastname}_${firstname}' target="_blank"><button>gelbooru</button></a>
+                <a href='${nhentaiLink}${firstname} ${lastname}' target="_blank"><button>nhentai</button></a>
+                <a href='${pixivLink}${firstname} ${lastname}' target="_blank"><button>pixiv</button></a>
             </div>
         </div>
     `     
