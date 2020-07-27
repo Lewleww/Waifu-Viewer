@@ -31,5 +31,20 @@ const characters = [
         firstname: 'Azusa',
         lastname: 'Nakano',
         thumbnail: 'azusa.jpg'
+    },
+    {
+        firstname: 'Taiga',
+        lastname: 'Aisaka',
+        thumbnail: 'taiga.jpg'
+    },
+    {
+        firstname: 'Chino',
+        lastname: 'Kafuu',
+        thumbnail: 'chino.jpg'
+    },
+    {
+        firstname: 'Shinobu',
+        lastname: 'Oshino',
+        thumbnail: 'shinobu.jpg'
     }
 ]
